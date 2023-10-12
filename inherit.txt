@@ -1,0 +1,2 @@
+1. You can pass on and reuse code from a parent class to multiple child classes if they are gonna be reused.
+2. By passing it onto the children easily, you can also easily modify it to change it to fit each child class such as differentiating what prints out depending on the child class.
