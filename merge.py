@@ -9,5 +9,10 @@ def merge_list(list1, list2):
 	
 	merge = list1 + list2
 
-	return merge
+	n = len(merge)
+	for i in range(n):
+		for j in range(0, n-i-1):
+			if merge[j] > merge[j+1]:
+				merge[j], merge[j+1] = merge[j+1], merge[j]	
 
+	return merge
