@@ -1,0 +1,6 @@
+Variable a does not change because the increment_int_a function does not 
+affect the variable a as it is unmutable. The a used in the function is 
+different from the a outside the function
+
+Variable b does change because it the function passes a dictionary which 
+is mutable.  
